@@ -33,6 +33,10 @@ a:hover{ font-weight:bold; }
 .submit{ padding-top:30px; text-align:center; }
 .submit button{ border:1px solid #333; padding:10px 30px; background:#333; color:#fff; border-radius: 20px; }
 
+@media (max-width: 1200px){
+  .container{ width:100%; padding:0 30px; }
+}
+
 
 
 
