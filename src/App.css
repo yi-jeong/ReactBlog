@@ -34,7 +34,9 @@ a:hover{ font-weight:bold; }
 .submit button{ border:1px solid #333; padding:10px 30px; background:#333; color:#fff; border-radius: 20px; }
 
 @media (max-width: 1200px){
-  .container{ width:100%; padding:0 30px; }
+  .container{ width:100%; padding:0 15px; }
+  .ListBox{ padding:30px 10px; }
+  .header h1{ padding:20px 10px; }
 }
 
 

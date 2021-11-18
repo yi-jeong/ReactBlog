@@ -80,6 +80,7 @@ function App() {
   ]);
 
   const nextid = useRef(7);
+  const NowDate = new Date();
   const onCreate = () => {
     const CreateContent = {
       id: nextid.current,
@@ -87,7 +88,7 @@ function App() {
       txt,
       like:0,
       com:0,
-      date:'2021-11-17'
+      date: NowDate.getFullYear() + '-'+ NowDate.getMonth() + '-' + NowDate.getDate()
     };
     setBlogContent(BlogContent.concat(CreateContent));
     // 나중에 구현 할 배열에 항목 추가하는 로직
